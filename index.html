@@ -1,6 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
+<head>
+    <link rel="icon" href="favicon.ico">
+    <title>zyhang</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="utf-8">
+    <meta name="description" content="zyhang A Android Developer">
+    <meta name="keywords" content="zyhang, Android">
+    <style>
+        body,ul,li {
+            padding: 0;
+            margin: 0;
+        }
+        ul {
+            list-style: none
+        }
+        li {
+            display: inline-block;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        /*.background {*/
+            /*position: absolute;*/
+            /*width: 100%;*/
+            /*height: 87.5vh;*/
+            /*background-color: #ecf0f1;*/
+        /*}*/
+        .head {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            background: url("http://images.zyhang.com/17-8-3/91150859.jpg") no-repeat center;
+            background-size: cover;
+        }
+        .avatar {
+            position: relative;
+            left: 50%;
+            width: 128px;
+            height: 128px;
+            margin-top: -64px;
+            background: #fff url("avatar.png") no-repeat center;
+            background-size: cover;
+            box-shadow: 0 0 5px #95a5a6;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            border: 3px solid #fff;
+            border-radius: 50%;
+            box-sizing: border-box;
+        }
+        .author {
+            position: relative;
+            text-align: center;
+        }
+        .icon {
+            /*display: inline-block;*/
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello China</h1>
+<!--<div class="background"></div>-->
+<div class="head"></div>
+<div class="avatar"></div>
+<div class="author">
+    <h2>zyhang</h2>
+    <ul>
+        <li>
+            <a href="http://blog.zyhang.com" target="_blank">
+                <img class="icon" src="blog.png">
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/yuhangjiayou" target="_blank">
+                <img class="icon" src="github.png">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/zyhang4502" target="_blank">
+                <img class="icon" src="twitter.png">
+            </a>
+        </li>
+        <li>
+            <a href="https://telegram.me/zyhang" target="_blank">
+                <img class="icon" src="telegram.png">
+            </a>
+        </li>
+    </ul>
+</div>
 </body>
 </html>
