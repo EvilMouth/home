@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
     <link rel="shortcut icon" href="favicon.ico">
     <title>zyhang</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta charset="utf-8">
     <meta name="description" content="zyhang - Java/Android Developer">
     <meta name="keywords" content="zyhang, android">
     <style>
-        body,ul,li {
+        body,
+        ul,
+        li {
             padding: 0;
             margin: 0;
         }
+
         ul {
             list-style: none
         }
+
         li {
             display: inline-block;
             margin-left: 6px;
             margin-right: 6px;
         }
+
         /*.background {*/
-            /*position: absolute;*/
-            /*width: 100%;*/
-            /*height: 87.5vh;*/
-            /*background-color: #ecf0f1;*/
+
+        /*position: absolute;*/
+
+        /*width: 100%;*/
+
+        /*height: 87.5vh;*/
+
+        /*background-color: #ecf0f1;*/
+
         /*}*/
+
         .head {
             position: relative;
             width: 100%;
@@ -35,6 +46,7 @@
             background: url("page_background.jpg") no-repeat center;
             background-size: cover;
         }
+
         .avatar {
             position: relative;
             left: 50%;
@@ -53,10 +65,12 @@
             border-radius: 50%;
             box-sizing: border-box;
         }
+
         .author {
             position: relative;
             text-align: center;
         }
+
         .icon {
             /*display: inline-block;*/
             width: 24px;
@@ -64,45 +78,46 @@
         }
     </style>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104383502-1"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  ga('create', 'UA-104383502-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        gtag('config', 'UA-104383502-1');
+    </script>
 </head>
+
 <body>
-<!--<div class="background"></div>-->
-<div class="head"></div>
-<div class="avatar"></div>
-<div class="author">
-    <h2>zyhang</h2>
-    <ul>
-        <li>
-            <a href="https://blog.zyhang.com" target="_blank">
-                <img class="icon" src="blog.png">
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/izyhang" target="_blank">
-                <img class="icon" src="github.png">
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/izyhang" target="_blank">
-                <img class="icon" src="twitter.png">
-            </a>
-        </li>
-        <li>
-            <a href="https://telegram.me/zyhang" target="_blank">
-                <img class="icon" src="telegram.png">
-            </a>
-        </li>
-    </ul>
-</div>
+    <!--<div class="background"></div>-->
+    <div class="head"></div>
+    <div class="avatar"></div>
+    <div class="author">
+        <h2>zyhang</h2>
+        <ul>
+            <li>
+                <a href="https://blog.zyhang.com" target="_blank">
+                    <img class="icon" src="blog.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/izyhang" target="_blank">
+                    <img class="icon" src="github.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/izyhang" target="_blank">
+                    <img class="icon" src="twitter.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://telegram.me/zyhang" target="_blank">
+                    <img class="icon" src="telegram.png">
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>
