@@ -1,0 +1,20 @@
+name: Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: push
+      uses: izyhang/SFTP-Deploy-Action@v1.1
+      with:
+        username: '${{ secrets.SSH_NAME }}'
+        server: '${{ secrets.SSH_IP }}'
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        local_path: './*'
+        remote_path: '${{ secrets.SSH_TARGET_PATH }}'
