@@ -1,6 +1,0 @@
-*.md
-.git
-.github
-.gitignore
-tar-exclude
-home.tar.tgz
