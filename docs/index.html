@@ -1,138 +1,118 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-
-<head>
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>zyhang</title>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Evil Mouth</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta charset="utf-8">
-    <meta name="description" content="zyhang - Java/Android Developer">
-    <meta name="keywords" content="zyhang, android">
-    <!-- <script>
-        var referrer = document.referrer
-        document.write(typeof referrer)
-        document.write(referrer)
-    </script> -->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <meta name="description" content="Evil Mouth - Java/Android Developer" />
+    <meta name="keywords" content="evilmouth, website, android" />
     <style>
-        body,
-        ul,
-        li {
-            padding: 0;
-            margin: 0;
-        }
+      body,
+      ul,
+      li {
+        padding: 0;
+        margin: 0;
+      }
 
-        ul {
-            list-style: none
-        }
+      ul {
+        list-style: none;
+      }
 
-        li {
-            display: inline-block;
-            margin-left: 6px;
-            margin-right: 6px;
-        }
+      li {
+        display: inline-block;
+        margin-left: 6px;
+        margin-right: 6px;
+      }
 
-        /*.background {*/
+      .head {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        background: url('page_background.jpg') no-repeat center;
+        background-size: cover;
+      }
 
-        /*position: absolute;*/
+      .avatar {
+        position: relative;
+        left: 50%;
+        width: 128px;
+        height: 128px;
+        margin-top: -64px;
+        background: #fff
+          url('https://www.gravatar.com/avatar/d3114e784a27686910eae7bc52ba8888?s=128')
+          no-repeat center;
+        background-size: cover;
+        box-shadow: 0 0 5px #95a5a6;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border: 3px solid #fff;
+        border-radius: 50%;
+        box-sizing: border-box;
+      }
 
-        /*width: 100%;*/
+      .author {
+        position: relative;
+        text-align: center;
+      }
 
-        /*height: 87.5vh;*/
-
-        /*background-color: #ecf0f1;*/
-
-        /*}*/
-
-        .head {
-            position: relative;
-            width: 100%;
-            height: 50vh;
-            background: url("page_background.jpg") no-repeat center;
-            background-size: cover;
-        }
-
-        .avatar {
-            position: relative;
-            left: 50%;
-            width: 128px;
-            height: 128px;
-            margin-top: -64px;
-            background: #fff url("https://www.gravatar.com/avatar/d3114e784a27686910eae7bc52ba8888?s=128") no-repeat center;
-            background-size: cover;
-            box-shadow: 0 0 5px #95a5a6;
-            -webkit-transform: translateX(-50%);
-            -moz-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-            -o-transform: translateX(-50%);
-            transform: translateX(-50%);
-            border: 3px solid #fff;
-            border-radius: 50%;
-            box-sizing: border-box;
-        }
-
-        .author {
-            position: relative;
-            text-align: center;
-        }
-
-        .icon {
-            /*display: inline-block;*/
-            width: 24px;
-            height: 24px;
-        }
-
-        footer {
-            position: fixed;
-            bottom: 20px;
-            text-align: center;
-            width: 100%;
-        }
+      .icon {
+        /*display: inline-block;*/
+        width: 24px;
+        height: 24px;
+      }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104383502-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177389301-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-        gtag('config', 'UA-104383502-1');
+      gtag('config', 'UA-177389301-1')
     </script>
-</head>
+  </head>
 
-<body>
-    <!--<div class="background"></div>-->
+  <body>
     <div class="head"></div>
     <div class="avatar"></div>
     <div class="author">
-        <h2>zyhang</h2>
-        <ul>
-            <li>
-                <a href="https://blog.zyhang.com" target="_blank">
-                    <img class="icon" src="blog.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/izyhang" target="_blank">
-                    <img class="icon" src="github.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/izyhang" target="_blank">
-                    <img class="icon" src="twitter.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://telegram.me/zyhang" target="_blank">
-                    <img class="icon" src="telegram.png">
-                </a>
-            </li>
-        </ul>
+      <h2>EVILMOUTH</h2>
+      <ul>
+        <li>
+          <a href="https://blog.evilmouth.net" target="_blank">
+            <img class="icon" src="blog.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/evilmouth" target="_blank">
+            <img class="icon" src="github.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/ievilmouth" target="_blank">
+            <img class="icon" src="twitter.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://telegram.me/zyhang" target="_blank">
+            <img class="icon" src="telegram.png" />
+          </a>
+        </li>
+      </ul>
     </div>
-    <!-- <footer>
-        <a style="text-decoration: none; color:black" href="http://beian.miit.gov.cn" target="blank">粤ICP备17017917号</a>
-    </footer> -->
-</body>
-
+  </body>
 </html>
