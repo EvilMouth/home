@@ -13,7 +13,8 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deployGithubPages": "npm run build && echo 'Deploy Pages...' && npx gh-pages -d public"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^1.2.12",
