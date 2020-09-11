@@ -15,7 +15,7 @@ module.exports = {
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://cdn.jsdelivr.net/gh/EvilMouth/home@gh-pages`,
     // Used for SEO
-    siteDescription: `Evil Mouth - Android Developer`,
+    siteDescription: `Music Lover`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
